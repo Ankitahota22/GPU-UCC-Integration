@@ -64,7 +64,7 @@ GPU-UCC-Integration/
 │   └── benchmark-workflow.md
 │
 └── evidence/
-```
+```text
 
 ## Technical Areas Investigated
 

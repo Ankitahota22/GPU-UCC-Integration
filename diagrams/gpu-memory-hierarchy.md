@@ -1,18 +1,12 @@
-flowchart TD
-    A[GPU Application / CUDA Kernel]
-    B[Streaming Multiprocessor - SM]
-    C[Registers]
-    D[Shared Memory]
-    E[L1 Instruction Cache - L1I]
-    F[L1 Data Cache - L1D]
-    G[L2 Cache]
-    H[Global Memory - GPU DRAM]
+# GPU Memory Hierarchy
 
-    A --> B
-    B --> C
-    B --> D
-    B --> E
-    B --> F
-    E --> G
+```mermaid
+flowchart TD
+    A[CUDA Application] --> B[Streaming Multiprocessor]
+    B --> C[Registers]
+    B --> D[Shared Memory]
+    B --> E[L1 Instruction Cache]
+    B --> F[L1 Data Cache]
+    E --> G[L2 Cache]
     F --> G
-    G --> H
+    G --> H[Global Memory / GPU DRAM]
