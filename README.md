@@ -41,30 +41,29 @@ The work focused on understanding GPU memory hierarchy, investigating cache acce
 - **Linux:** Development and simulation environment.
 - **Git and GitHub:** Version control and documentation.
 
+
+### 2. README repository structure fix
+
+README mein `## Repository Structure` se lekar `## Technical Areas Investigated` ke just pehle tak ka content replace karo:
+
+```markdown
 ## Repository Structure
 
-```text
-GPU-UCC-Integration/
-│
-├── README.md
-│
-├── docs/
-│   ├── project-overview.md
-│   ├── gpu-memory-hierarchy.md
-│   ├── gpgpu-sim-source-analysis.md
-│   ├── ucc-architecture.md
-│   ├── integration-investigation.md
-│   ├── benchmark-workflow.md
-│   ├── limitations-and-future-work.md
-│   └── references.md
-│
-├── diagrams/
-│   ├── gpu-memory-hierarchy.md
-│   ├── ucc-integration-flow.md
-│   └── benchmark-workflow.md
-│
-└── evidence/
-```text
+- **docs/**
+  - project-overview.md
+  - gpu-memory-hierarchy.md
+  - gpgpu-sim-source-analysis.md
+  - ucc-architecture.md
+  - integration-investigation.md
+  - benchmark-workflow.md
+  - limitations-and-future-work.md
+  - references.md
+- **diagrams/**
+  - gpu-memory-hierarchy.md
+  - ucc-integration-flow.md
+  - benchmark-workflow.md
+- **evidence/**
+- **README.md**
 
 ## Technical Areas Investigated
 

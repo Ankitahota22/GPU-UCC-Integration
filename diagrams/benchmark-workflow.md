@@ -1,7 +1,8 @@
 
-**3. `benchmark-workflow.md`**
+**Diagram 3**
 
-```markdown
+```powershell
+@'
 # CUDA Benchmark Workflow
 
 ```mermaid

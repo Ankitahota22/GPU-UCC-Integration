@@ -1,7 +1,8 @@
 
-**2. `ucc-integration-flow.md`**
+**Diagram 2**
 
-```markdown
+```powershell
+@'
 # Conceptual UCC Integration Flow
 
 ```mermaid
